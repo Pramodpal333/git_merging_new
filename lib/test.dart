@@ -5,6 +5,13 @@ class TestPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return const Container(
+      child: Column(
+        children: [
+          Text("6"),
+          Text("7"),
+        ],
+      ),
+    );
   }
 }
